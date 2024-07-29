@@ -16,13 +16,14 @@
     min-width: 320px;
     max-width: 40vw;
     margin: 20px;
+    text-align: center;
 
 }
 .hometitle{
-    font-size: 34px;
+    font-size: 44px;
 }
 .homecontent{
-    font-size: 24px;
+    font-size: 30px;
 }
 
 body{
@@ -46,10 +47,21 @@ body{
 
 
 
-
+#menuTitle{
+    font-size: 68px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#secondTitle{
+    font-size: 38px;
+    text-align: center;
+}
 .menuItem{
+    margin:30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .menuImage{
@@ -60,4 +72,10 @@ body{
     
     margin:30px;
 
+}
+
+.itemtitle{
+    font-size: 34px;
+    min-width: 300px;
+    text-align: center;
 }
