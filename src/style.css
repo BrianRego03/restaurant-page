@@ -1,0 +1,34 @@
+#headimage{
+    display: flex;
+    justify-content: center;
+}
+
+.homelayout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hometext{
+    text-wrap: wrap;
+    min-width: 250px;
+    max-width: 40vw;
+
+}
+
+#midsection{
+    flex-wrap: wrap-reverse;
+}
+
+.homeimage>img{
+    max-width: 80%;
+    width: 640px;
+    
+    min-width: 280px;
+    
+    margin:30px;
+    /* flex-shrink: 1; */
+}
+
+.homeimage{
+    max-width: 80vw;
+}
