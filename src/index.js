@@ -11,8 +11,8 @@ function clearscreen(){
       }
       console.log("Is this thing working?")
 }
-// clearscreen();
-// homepageLoader();
+
+homepageLoader();
 
 let homeBtn=document.querySelector("#homebutton");
 
