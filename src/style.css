@@ -9,10 +9,25 @@
     justify-content: center;
 }
 .hometext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-wrap: wrap;
-    min-width: 250px;
+    min-width: 320px;
     max-width: 40vw;
+    margin: 20px;
 
+}
+.hometitle{
+    font-size: 34px;
+}
+.homecontent{
+    font-size: 24px;
+}
+
+body{
+    background-image:url(./pics/madhuvanbackg.jpg);
+    color: azure;
 }
 
 #midsection{
@@ -26,9 +41,6 @@
     min-width: 280px;
     
     margin:30px;
-    /* flex-shrink: 1; */
+    
 }
 
-.homeimage{
-    max-width: 80vw;
-}
