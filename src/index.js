@@ -1,5 +1,5 @@
 import './style.css';
-
+import {homepageLoader} from './homep.js'
 
 let contentSection=document.querySelector("#content");
 
@@ -10,6 +10,7 @@ function clearscreen(){
       console.log("Is this thing working?")
 }
 // clearscreen();
+homepageLoader();
 
 
 
