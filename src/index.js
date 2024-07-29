@@ -1,5 +1,5 @@
 import './style.css';
-// import crab from './pics/homepage/crabhome.png'
+
 
 let contentSection=document.querySelector("#content");
 
@@ -12,7 +12,6 @@ function clearscreen(){
 // clearscreen();
 
 
-// const mycrab=new Image();
-// mycrab.src=crab;
+
 // contentSection.appendChild(mycrab);
 
