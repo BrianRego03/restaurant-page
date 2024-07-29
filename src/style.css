@@ -44,3 +44,20 @@ body{
     
 }
 
+
+
+
+.menuItem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuImage{
+    max-width: 80%;
+    width: 640px;
+    
+    min-width: 280px;
+    
+    margin:30px;
+
+}
