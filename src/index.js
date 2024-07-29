@@ -1,5 +1,6 @@
 import './style.css';
-import {homepageLoader} from './homep.js'
+import {homepageLoader} from './homep.js';
+import {menuPageLoader} from './menup.js';
 
 let contentSection=document.querySelector("#content");
 
@@ -10,9 +11,26 @@ function clearscreen(){
       console.log("Is this thing working?")
 }
 // clearscreen();
-homepageLoader();
+// homepageLoader();
 
+let homeBtn=document.querySelector("#homebutton");
 
+homeBtn.addEventListener('click',()=>{
+    clearscreen();
+    homepageLoader();
+})
 
-// contentSection.appendChild(mycrab);
+let menuBtn=document.querySelector("#menubutton");
+
+menuBtn.addEventListener('click',()=>{
+    clearscreen();
+    menuPageLoader();
+})
+
+let aboutBtn=document.querySelector("#aboutbutton");
+
+aboutBtn.addEventListener('click',()=>{
+    clearscreen();
+    // aboutPageLoader();
+})
 
