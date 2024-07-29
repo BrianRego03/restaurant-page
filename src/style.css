@@ -108,4 +108,32 @@ body{
     text-align: center;
     text-shadow: 5px ;
     background-color: rgba(0,0,0,0.7);
+    /* max-width: 600px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
 }
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: 200px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+button{
+    min-width: 100px;
+    min-height: 50px;
+    background-color: rgba(0,0,0,0);    
+    color: white;
+    border: 1px solid rgba(0,0,0,0);
+    margin-right: 120px;
+}
+
+* {
+    margin: 0;
+  }

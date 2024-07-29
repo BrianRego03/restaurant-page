@@ -71,7 +71,7 @@ const homepageLoader=()=>{
     newLayoutDiv2.appendChild(newTextDiv2).classList.add("hometext");
     const newTitleP2=document.createElement("p");
     newTextDiv2.appendChild(newTitleP2).classList.add("hometitle");
-    newTitleP2.innerText=("Unparalleled ambience");
+    newTitleP2.innerText=("Classy Bar");
     const newContentP2=document.createElement("p");
     newTextDiv2.appendChild(newContentP2).classList.add("homecontent");
     newContentP2.innerText="Our restaurant immerses you in the beautiful coastal climate of Mangalore. Step into our restaurant to travel to a different reality.";
