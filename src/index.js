@@ -1,6 +1,7 @@
 import './style.css';
 import {homepageLoader} from './homep.js';
 import {menuPageLoader} from './menup.js';
+import {aboutPageLoader} from './aboutp.js';
 
 let contentSection=document.querySelector("#content");
 
@@ -31,6 +32,6 @@ let aboutBtn=document.querySelector("#aboutbutton");
 
 aboutBtn.addEventListener('click',()=>{
     clearscreen();
-    // aboutPageLoader();
+    aboutPageLoader();
 })
 
